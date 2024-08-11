@@ -2,7 +2,7 @@
 #include "ChaineVideException.h"
 #include <cctype>
 
-int ManipulateurDeChaines::compterCaracteres(const std::string& chaine) {
+unsigned int ManipulateurDeChaines::compterCaracteres(const std::string& chaine) {
     return chaine.length();
 }
 

@@ -21,7 +21,7 @@ EXPECT_EQ(resultat, 15);
 }
 
 // TODO: Donner un nom au test suivant avec le principe EtantDonne-Quand-Alors
-TEST_F(CalculateurTest, test2) {
+TEST_F(CalculateurTest, EtantDonneDeuxNombres_QuandSoustraction_AlorsLaSoustractionEstCorrecte) {
 // Étant donné
 int premierNombre = 10;
 int deuxiemeNombre = 5;
@@ -34,7 +34,7 @@ EXPECT_EQ(resultat, 5);
 }
 
 // TODO: Donner un nom au test suivant avec le principe EtantDonne-Quand-Alors
-TEST_F(CalculateurTest, test3) {
+TEST_F(CalculateurTest, EtantDonneDeuxNombres_QuandMultiplication_AlorsLaMultiplicationEstCorrecte) {
 // Étant donné
 int premierFacteur = 5;
 int deuxiemeFacteur = 10;
@@ -47,7 +47,7 @@ EXPECT_EQ(resultat, 50);
 }
 
 // TODO: Donner un nom au test suivant avec le principe EtantDonne-Quand-Alors
-TEST_F(CalculateurTest, test4) {
+TEST_F(CalculateurTest, EtantDonneDeuxNombresAvecDiviseurNonNul_QuandDivision_AlorsLaDivisionEstCorrecte) {
 // Étant donné
 int dividende = 10;
 int diviseur = 2;
@@ -60,7 +60,7 @@ EXPECT_EQ(resultat, 5);
 }
 
 // TODO: Donner un nom au test suivant avec le principe EtantDonne-Quand-Alors
-TEST_F(CalculateurTest, test5) {
+TEST_F(CalculateurTest, EtantDonneDeuxNombresAvecDiviseurNul_QuandDivision_AlorsLErreurRuntimeEstRenvoyee) {
 // Étant donné
 int dividende = 10;
 int diviseur = 0;
